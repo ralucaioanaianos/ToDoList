@@ -1,0 +1,14 @@
+﻿@api_HostAddress = http://localhost:5008
+
+POST {{api_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+  "name":"walk dog",
+  "isComplete":true
+}
+###
+
+GET {{api_HostAddress}}/todoitems
+
+###
